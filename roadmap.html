@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roadmap | FarmX</title>
+    <meta
+      name="description"
+      content="The FarmX Engineering Roadmap: how FarmX will build the Agricultural Operating System over the next three years."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/new-ag-os-logo.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="roadmap-page">
+      <div class="site-topbar">
+        <div class="container">
+          <header class="topbar">
+            <a class="brand-mark" href="index.html">
+              <img
+                src="assets/new-ag-os-logo.png"
+                alt="FarmX AgOS AI"
+                class="brand-logo"
+              />
+            </a>
+            <button
+              type="button"
+              class="nav-toggle"
+              aria-label="Toggle navigation"
+              aria-expanded="false"
+              aria-controls="primary-nav"
+            >
+              <span class="nav-toggle__line" aria-hidden="true"></span>
+              <span class="nav-toggle__line" aria-hidden="true"></span>
+              <span class="nav-toggle__line" aria-hidden="true"></span>
+            </button>
+            <nav class="page-nav" id="primary-nav" aria-label="Primary">
+              <a href="index.html">Home</a>
+              <a href="vision.html">Vision</a>
+              <a href="platform.html">Platform</a>
+              <a href="industries.html">Industries</a>
+              <a href="digital-due-diligence.html">Digital Due Diligence</a>
+              <a href="investors.html">Investors</a>
+              <a href="roadmap.html">Roadmap</a>
+              <a href="founder.html">Founder</a>
+              <a href="leadership.html">Leadership</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </header>
+        </div>
+      </div>
+
+      <section class="hero hero--page">
+        <div class="container hero__inner hero__inner--page">
+          <div class="hero__content hero__content--wide">
+            <img
+              src="assets/farmx-ag-os-logo.png"
+              alt="FarmX AgOS AI"
+              class="hero__logo hero__logo--compact"
+            />
+            <p class="eyebrow">FarmX Engineering Roadmap</p>
+            <h1>
+              Building the Agricultural Operating System, one operational
+              capability at a time.
+            </h1>
+            <p class="hero__copy">
+              FarmX has a clear long-term ambition: to become the intelligent
+              operating system for agriculture. But that ambition depends on
+              disciplined execution. This roadmap defines what has been built,
+              what remains unfinished, and how FarmX will move from core platform
+              completion to AI-driven operational intelligence.
+            </p>
+            <aside class="roadmap-objective" aria-label="Immediate objective">
+              <p class="roadmap-objective__label">Immediate objective</p>
+              <p class="roadmap-objective__headline">
+                Complete this roadmap with Ilia and George.
+              </p>
+              <p class="roadmap-objective__body">
+                This page is the working roadmap for FarmX. The first priority is
+                to use it with Ilia and George to validate the current platform
+                status, challenge the assumptions, define missing milestones,
+                estimate effort and turn each initiative into an outcome-led
+                delivery plan.
+              </p>
+              <p class="roadmap-objective__body">
+                The roadmap is not finished until the product, technical and
+                operational leads have helped complete it.
+              </p>
+            </aside>
+            <div class="hero__actions">
+              <a class="button button--primary" href="platform.html"
+                >Explore Platform</a
+              >
+              <a class="button button--secondary" href="contact.html"
+                >Contact FarmX</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-sections">
+        <div class="container stack stack--roadmap">
+          <section class="content-block">
+            <p class="section-kicker">How we build</p>
+            <h2>Outcomes before features.</h2>
+            <p>
+              The first use of this roadmap is alignment. Adam, Ilia and George
+              must work through it together, confirm what is accurate, identify
+              what is missing, and agree what each initiative must achieve before
+              development effort is committed.
+            </p>
+            <p>
+              One of the most important lessons in building FarmX is that
+              features are not the objective. A feature is only valuable if it
+              creates a meaningful operational outcome.
+            </p>
+            <p>
+              FarmX will now define every major initiative using an
+              outcome-first framework. Before screens, reports, workflows or
+              code are specified, the team must first define the operational
+              result we are trying to create.
+            </p>
+            <p>Every initiative must answer three questions:</p>
+            <ol class="content-list content-list--ordered">
+              <li>What problem are we solving?</li>
+              <li>Why does solving it matter?</li>
+              <li>How will we know we have succeeded?</li>
+            </ol>
+            <blockquote class="roadmap-quote">
+              We do not build software for its own sake. We build the capability
+              for farms to make better decisions.
+            </blockquote>
+          </section>
+
+          <div class="roadmap-tabs-wrap">
+            <div class="roadmap-tabs" role="tablist" aria-label="Roadmap views">
+              <button
+                type="button"
+                class="roadmap-tab is-active"
+                role="tab"
+                id="roadmap-tab-platform"
+                data-roadmap-tab="platform"
+                aria-controls="roadmap-panel-platform"
+                aria-selected="true"
+                tabindex="0"
+              >
+                Platform
+              </button>
+              <button
+                type="button"
+                class="roadmap-tab"
+                role="tab"
+                id="roadmap-tab-ai"
+                data-roadmap-tab="ai"
+                aria-controls="roadmap-panel-ai"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                AI
+              </button>
+              <button
+                type="button"
+                class="roadmap-tab"
+                role="tab"
+                id="roadmap-tab-automation"
+                data-roadmap-tab="automation"
+                aria-controls="roadmap-panel-automation"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                Automation
+              </button>
+              <button
+                type="button"
+                class="roadmap-tab"
+                role="tab"
+                id="roadmap-tab-commercial"
+                data-roadmap-tab="commercial"
+                aria-controls="roadmap-panel-commercial"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                Commercial
+              </button>
+              <button
+                type="button"
+                class="roadmap-tab"
+                role="tab"
+                id="roadmap-tab-company"
+                data-roadmap-tab="company"
+                aria-controls="roadmap-panel-company"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                Company
+              </button>
+            </div>
+          </div>
+
+          <!-- PLATFORM -->
+          <div
+            class="roadmap-panel is-active"
+            id="roadmap-panel-platform"
+            role="tabpanel"
+            aria-labelledby="roadmap-tab-platform"
+            tabindex="0"
+            data-roadmap-panel="platform"
+          >
+            <section class="content-block content-block--accent">
+              <h2>Current platform status</h2>
+              <p>
+                FarmX already has significant capability in place, but the
+                platform is uneven. Some modules are production-ready, some need
+                refinement, and some are still prototypes or early concepts.
+                The next phase is about finishing, connecting and stabilising the
+                core platform.
+              </p>
+              <div class="roadmap-modules">
+                <details class="roadmap-module" open>
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>HR &amp; Payroll</h3>
+                      <span class="roadmap-status roadmap-status--production"
+                        >Production</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">95%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — statutory/payment visibility</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 95%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Built for Zambia and
+                      running payroll successfully.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Employee portal,
+                      improved attendance workflows, optional fingerprint
+                      scanning, ZRA portal integration, payment portal
+                      integration, automated payment status tracking, and
+                      visible payment references for wages, PAYE and statutory
+                      payments.
+                    </p>
+                    <p>
+                      The next phase of HR &amp; Payroll is to move beyond
+                      payroll processing into full statutory and payment
+                      visibility. FarmX should be able to confirm when wages,
+                      PAYE and statutory obligations were paid, record
+                      references automatically, and make relevant payment status
+                      visible through employee and management portals.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Tasks</h3>
+                      <span class="roadmap-status roadmap-status--functional"
+                        >Functional</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">85%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — UX and workflow cleanup</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 85%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Core operational tasking
+                      exists and is linked to projects and project clusters.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> UI cleanup, social-style
+                      task threads, imagery brought forward, better conversation
+                      and execution history.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Stores</h3>
+                      <span class="roadmap-status roadmap-status--functional"
+                        >Functional</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">90%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — integration refinement</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 90%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Recently cleaned up and
+                      largely operational.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Further UX refinement,
+                      tighter integration with finance, assets and issuing
+                      workflows.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Assets</h3>
+                      <span class="roadmap-status roadmap-status--strong"
+                        >Strong</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">95%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — reporting and analytics refinement</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 95%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Asset management is mostly
+                      complete and looking good.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Minor facelifts,
+                      reporting improvements and deeper maintenance analytics.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Finance</h3>
+                      <span class="roadmap-status roadmap-status--early"
+                        >Early</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">5%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — core financial workflows</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 5%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Mostly empty. Some sales
+                      structure exists but is not being used.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Smart invoicing,
+                      operational finance, sales integration, weighbridge
+                      linkage, and visibility of what has been sold, invoiced
+                      and paid.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Accounts Payable</h3>
+                      <span class="roadmap-status roadmap-status--prototype"
+                        >Defined Prototype</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">15%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — supplier workflow build</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 15%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Requirements have been
+                      defined and there is a prototype direction.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Supplier workflow,
+                      purchase approvals, invoice capture, integration with
+                      stores and asset creation.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Accounts Receivable</h3>
+                      <span class="roadmap-status roadmap-status--prototype"
+                        >Defined Prototype</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">15%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — sales and weighbridge linkage</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 15%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Basic prototype exists.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Customer invoicing,
+                      debtor management, sales integration, weighbridge linkage,
+                      payment tracking and customer visibility.
+                    </p>
+                    <p>
+                      Weighbridge integration is critical because physical
+                      movement of commodities must connect directly into sales,
+                      invoicing and receivables.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Budgeting</h3>
+                      <span class="roadmap-status roadmap-status--active"
+                        >Active</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">60%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — farmer/accountant layouts</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 60%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Budgeting exists but needs
+                      stronger farmer and accountant-facing layouts.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Cost per hectare,
+                      margins, returns, budget visibility and project-level
+                      financial control.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Reporting</h3>
+                      <span class="roadmap-status roadmap-status--continuous"
+                        >Continuous</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">Ongoing</span>
+                      <span class="roadmap-module__target"
+                        >Continuous — reports, dashboards and AI summaries</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress roadmap-progress--ongoing"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Reporting is not a single
+                      module; it will evolve across the platform.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Core traditional
+                      reports, AI-generated reporting, dashboards and
+                      operational summaries.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Compliance</h3>
+                      <span class="roadmap-status roadmap-status--partial"
+                        >Partial</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">30%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1/2 — module-level compliance</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 30%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Asset compliance exists.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> GlobalG.A.P. style
+                      compliance, module-level compliance, inferred compliance
+                      from operational data.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Orchards</h3>
+                      <span class="roadmap-status roadmap-status--active"
+                        >Active</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">75%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — irrigation and production visibility</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 75%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Orchard capability exists
+                      but needs more work.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Better operational
+                      workflows, irrigation integration, production visibility
+                      and reporting.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Water</h3>
+                      <span class="roadmap-status roadmap-status--strategic"
+                        >Strategic</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">30%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — Electromechanica automation</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 30%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Water capability exists but
+                      needs major development.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Electromechanica
+                      automation, pivots, pumps, reservoirs, flow, pressure,
+                      power, orchard irrigation and farmer dashboards.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Scouting</h3>
+                      <span class="roadmap-status roadmap-status--prototype"
+                        >Prototype</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">30%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — offline mobile release</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 30%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Comprehensive prototype
+                      exists but not live.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Offline-first mobile
+                      scouting, field observations, photos, GPS, AI-ready crop
+                      intelligence.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Sales</h3>
+                      <span class="roadmap-status roadmap-status--early"
+                        >Early</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">10%</span>
+                      <span class="roadmap-module__target"
+                        >Year 1 — weighbridge and receivables</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress"
+                      style="--progress: 10%"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Very limited.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Sales workflows,
+                      weighbridge integration, accounts receivable and customer
+                      visibility.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="roadmap-module">
+                  <summary class="roadmap-module__summary">
+                    <div class="roadmap-module__title">
+                      <h3>Dashboards</h3>
+                      <span class="roadmap-status roadmap-status--continuous"
+                        >Continuous</span
+                      >
+                    </div>
+                    <div class="roadmap-module__meta">
+                      <span class="roadmap-module__completion">Ongoing</span>
+                      <span class="roadmap-module__target"
+                        >Continuous — operational and AI visibility</span
+                      >
+                    </div>
+                    <div
+                      class="roadmap-progress roadmap-progress--ongoing"
+                      aria-hidden="true"
+                    >
+                      <span class="roadmap-progress__fill"></span>
+                    </div>
+                  </summary>
+                  <div class="roadmap-module__body">
+                    <p>
+                      <strong>Current State:</strong> Dashboards need major
+                      ongoing work.
+                    </p>
+                    <p>
+                      <strong>Next Milestones:</strong> Operational KPIs,
+                      management summaries, AI insights, mobile-first
+                      visibility.
+                    </p>
+                  </div>
+                </details>
+              </div>
+            </section>
+
+            <section class="content-block">
+              <h2>Three-year roadmap</h2>
+              <p>The roadmap is organised around three phases.</p>
+              <div class="roadmap-timeline">
+                <article class="roadmap-phase roadmap-phase--year1">
+                  <p class="roadmap-phase__label">Year 1</p>
+                  <h3>Capture Reality</h3>
+                  <p class="roadmap-phase__objective">
+                    <strong>Objective:</strong> Finish and connect the core
+                    platform so FarmX can accurately represent what is happening
+                    on the farm every day.
+                  </p>
+                  <ul class="roadmap-tags">
+                    <li>Core ERP completion</li>
+                    <li>Mobile-first workflows</li>
+                    <li>Water and irrigation automation</li>
+                    <li>WhatsApp and communication ingestion</li>
+                    <li>GPS and machinery visibility</li>
+                    <li>Offline scouting</li>
+                    <li>Customer onboarding</li>
+                    <li>Reference farms</li>
+                    <li>Platform stability</li>
+                  </ul>
+                </article>
+                <article class="roadmap-phase roadmap-phase--year2">
+                  <p class="roadmap-phase__label">Year 2</p>
+                  <h3>Understand Reality</h3>
+                  <p class="roadmap-phase__objective">
+                    <strong>Objective:</strong> Use structured operational data
+                    to build AI agents, reporting, benchmarking and operational
+                    intelligence.
+                  </p>
+                  <ul class="roadmap-tags">
+                    <li>AI engineers and AI architecture</li>
+                    <li>Farm Manager agent</li>
+                    <li>Agronomy agent</li>
+                    <li>Irrigation agent</li>
+                    <li>Workshop agent</li>
+                    <li>Finance agent</li>
+                    <li>Scouting intelligence</li>
+                    <li>Digital Due Diligence</li>
+                    <li>Third-party satellite integration</li>
+                    <li>Corporate agriculture sales</li>
+                  </ul>
+                </article>
+                <article class="roadmap-phase roadmap-phase--year3">
+                  <p class="roadmap-phase__label">Year 3</p>
+                  <h3>Scale Intelligence</h3>
+                  <p class="roadmap-phase__objective">
+                    <strong>Objective:</strong> Scale FarmX into larger
+                    agricultural businesses, multinational operations and
+                    increasingly automated farming systems.
+                  </p>
+                  <ul class="roadmap-tags">
+                    <li>Corporate Africa</li>
+                    <li>Strategic partnerships</li>
+                    <li>Enterprise sales</li>
+                    <li>Automation expansion</li>
+                    <li>Robotics integration</li>
+                    <li>International customers</li>
+                    <li>Advanced benchmarking</li>
+                    <li>Predictive analytics</li>
+                    <li>Operational orchestration</li>
+                  </ul>
+                </article>
+              </div>
+            </section>
+
+            <section class="content-block content-block--accent">
+              <h2>Platform initiatives</h2>
+              <div class="roadmap-initiatives">
+                <details class="roadmap-initiative">
+                  <summary>Finance and Smart Invoicing</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        Operational activity connects directly to financial
+                        visibility.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        Farmers need to understand cost, margin and return while
+                        decisions are still being made, not months later. Finance
+                        must connect to stores, sales, assets, projects and
+                        budgets.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        Smart invoicing, accounts payable, accounts receivable,
+                        sales integration, weighbridge linkage, stores
+                        integration, asset capitalisation, project costing.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+                <details class="roadmap-initiative">
+                  <summary>Project Clusters and Performance Comparison</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        Farmers can compare performance across fields, crops,
+                        seasons and projects.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        A farm cannot improve what it cannot compare. Project
+                        clusters allow FarmX to aggregate operations, costs,
+                        yields and outcomes so farmers can understand what worked
+                        and why.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        Project cluster reporting, year-on-year comparisons,
+                        cost per hectare, yield comparisons, margin analysis,
+                        performance dashboards.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+              </div>
+            </section>
+          </div>
+
+          <!-- AI -->
+          <div
+            class="roadmap-panel"
+            id="roadmap-panel-ai"
+            role="tabpanel"
+            aria-labelledby="roadmap-tab-ai"
+            tabindex="0"
+            data-roadmap-panel="ai"
+            hidden
+          >
+            <section class="content-block content-block--featured">
+              <h2>Year 2 — Understand Reality</h2>
+              <p class="roadmap-phase__objective">
+                <strong>Objective:</strong> Use structured operational data to
+                build AI agents, reporting, benchmarking and operational
+                intelligence.
+              </p>
+              <ul class="roadmap-tags">
+                <li>AI engineers and AI architecture</li>
+                <li>Farm Manager agent</li>
+                <li>Agronomy agent</li>
+                <li>Irrigation agent</li>
+                <li>Workshop agent</li>
+                <li>Finance agent</li>
+                <li>Scouting intelligence</li>
+                <li>Digital Due Diligence</li>
+                <li>Third-party satellite integration</li>
+                <li>Corporate agriculture sales</li>
+              </ul>
+            </section>
+
+            <section class="content-block">
+              <h2>AI initiatives</h2>
+              <div class="roadmap-initiatives">
+                <details class="roadmap-initiative" open>
+                  <summary>AI Farm Manager</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        The farmer can ask operational questions and receive
+                        accurate answers based on the current reality of the
+                        farm.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        The long-term value of FarmX is not data collection. It
+                        is decision support. AI becomes valuable when it can
+                        understand operations, highlight risks and help managers
+                        make better decisions.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        AI memory, operational Q&amp;A, task summaries, risk
+                        alerts, daily briefings, decision support, WhatsApp
+                        delivery.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+                <details class="roadmap-initiative">
+                  <summary>WhatsApp Operational Intelligence</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        FarmX understands operational instructions as they happen
+                        without requiring manual data entry.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        Farms already communicate through WhatsApp. Instructions,
+                        photos, voice notes and decisions are constantly shared
+                        there. If FarmX cannot understand those conversations,
+                        it cannot fully understand the farm.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        WhatsApp ingestion, voice note transcription, image
+                        understanding, task creation, project linking, AI
+                        summaries, operational memory.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+                <details class="roadmap-initiative">
+                  <summary>Satellite Imagery Integration</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        Farmers can subscribe to third-party satellite imagery
+                        services and access, store and review that imagery
+                        directly inside FarmX.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        FarmX should not rebuild satellite technology. The
+                        objective is to integrate an existing third-party
+                        subscription service, store the imagery against the
+                        farmer's fields, and make that information available as
+                        another operational intelligence layer.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        Third-party satellite provider integration, subscription
+                        workflow, field boundary setup, image archive, NDVI/NDRE
+                        layers, field history, and linking imagery to scouting,
+                        irrigation and crop decisions.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+              </div>
+            </section>
+          </div>
+
+          <!-- AUTOMATION -->
+          <div
+            class="roadmap-panel"
+            id="roadmap-panel-automation"
+            role="tabpanel"
+            aria-labelledby="roadmap-tab-automation"
+            tabindex="0"
+            data-roadmap-panel="automation"
+            hidden
+          >
+            <section class="content-block content-block--featured">
+              <h2>Year 1 — Capture Reality</h2>
+              <p class="roadmap-phase__objective">
+                <strong>Objective:</strong> Finish and connect the core platform
+                so FarmX can accurately represent what is happening on the farm
+                every day.
+              </p>
+              <ul class="roadmap-tags">
+                <li>Water and irrigation automation</li>
+                <li>WhatsApp and communication ingestion</li>
+                <li>GPS and machinery visibility</li>
+                <li>Offline scouting</li>
+                <li>Platform stability</li>
+              </ul>
+            </section>
+
+            <section class="content-block">
+              <h2>Automation initiatives</h2>
+              <div class="roadmap-initiatives">
+                <details class="roadmap-initiative" open>
+                  <summary>Electromechanica Water Automation</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        Every litre of water becomes measurable, controllable and
+                        attributable.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        Water is one of the most important controllable variables
+                        in agriculture. Connecting pumps, pivots, reservoirs, flow,
+                        pressure and power transforms irrigation from a manual
+                        activity into a measurable operating system.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        Pump integration, pivot control, flow meters, pressure
+                        monitoring, reservoir monitoring, power monitoring,
+                        irrigation dashboards.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+                <details class="roadmap-initiative">
+                  <summary>Offline Mobile Scouting</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        The farmer understands crop health across the farm without
+                        needing to physically inspect every field every day.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        Crop problems are often missed because observations are
+                        inconsistent, delayed or undocumented. Scouting creates
+                        the field-level truth needed for agronomy, spray timing,
+                        AI analysis and crop performance improvement.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        Offline mobile app, GPS-linked observations, photos,
+                        scouting templates, pest and disease records, AI
+                        summaries, field heatmaps.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+                <details class="roadmap-initiative">
+                  <summary>GPS and Machinery Visibility</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        Every machine movement becomes part of the farm's
+                        operational memory.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        Machinery activity is central to cost, timing,
+                        accountability and efficiency. GPS visibility allows FarmX
+                        to know what work happened, where it happened, when it
+                        happened and what it cost.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        Vehicle GPS, tractor tracking, implement linkage, machine
+                        hours, field activity history, work verification.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+                <details class="roadmap-initiative">
+                  <summary>WhatsApp Operational Intelligence</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        FarmX understands operational instructions as they happen
+                        without requiring manual data entry.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        Farms already communicate through WhatsApp. If FarmX
+                        cannot understand those conversations, it cannot fully
+                        understand the farm.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        WhatsApp ingestion, voice note transcription, image
+                        understanding, task creation, project linking, AI
+                        summaries, operational memory.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+                <details class="roadmap-initiative">
+                  <summary>Satellite Imagery Integration</summary>
+                  <div class="roadmap-initiative__body">
+                    <dl class="roadmap-dl">
+                      <dt>Desired Outcome</dt>
+                      <dd>
+                        Farmers can subscribe to third-party satellite imagery
+                        services and access, store and review that imagery
+                        directly inside FarmX.
+                      </dd>
+                      <dt>Why It Matters</dt>
+                      <dd>
+                        FarmX should not rebuild satellite technology. The
+                        objective is to integrate an existing third-party
+                        subscription service, store the imagery against the
+                        farmer's fields, and make that information available as
+                        another operational intelligence layer.
+                      </dd>
+                      <dt>Key Deliverables</dt>
+                      <dd>
+                        Third-party satellite provider integration, subscription
+                        workflow, field boundary setup, image archive, NDVI/NDRE
+                        layers, field history, and linking imagery to scouting,
+                        irrigation and crop decisions.
+                      </dd>
+                    </dl>
+                  </div>
+                </details>
+              </div>
+            </section>
+          </div>
+
+          <!-- COMMERCIAL -->
+          <div
+            class="roadmap-panel"
+            id="roadmap-panel-commercial"
+            role="tabpanel"
+            aria-labelledby="roadmap-tab-commercial"
+            tabindex="0"
+            data-roadmap-panel="commercial"
+            hidden
+          >
+            <section class="content-block content-block--featured">
+              <h2>Year 3 — Scale Intelligence</h2>
+              <p class="roadmap-phase__objective">
+                <strong>Objective:</strong> Scale FarmX into larger agricultural
+                businesses, multinational operations and increasingly automated
+                farming systems.
+              </p>
+              <ul class="roadmap-tags">
+                <li>Corporate Africa</li>
+                <li>Strategic partnerships</li>
+                <li>Enterprise sales</li>
+                <li>International customers</li>
+                <li>Advanced benchmarking</li>
+              </ul>
+            </section>
+
+            <section class="content-block">
+              <h2>Commercial roadmap</h2>
+              <p>
+                FarmX must build while selling carefully. The commercial strategy
+                is to onboard selected customers who understand the product
+                journey, provide operational feedback and help create credible
+                reference sites.
+              </p>
+              <div class="roadmap-commercial">
+                <article class="roadmap-commercial-year">
+                  <h3>Year 1</h3>
+                  <p>
+                    Focus on Zambian farms, selected reference customers,
+                    Electromechanica partnership, CRC support, Lusali support,
+                    implementation discipline and product validation.
+                  </p>
+                </article>
+                <article class="roadmap-commercial-year">
+                  <h3>Year 2</h3>
+                  <p>
+                    Expand into stronger sales activity, corporate agriculture,
+                    banks, government opportunities and strategic agricultural
+                    service providers.
+                  </p>
+                </article>
+                <article class="roadmap-commercial-year">
+                  <h3>Year 3</h3>
+                  <p>
+                    Target larger corporates, multinational agricultural
+                    businesses and international markets across Africa and
+                    beyond.
+                  </p>
+                </article>
+              </div>
+            </section>
+          </div>
+
+          <!-- COMPANY -->
+          <div
+            class="roadmap-panel"
+            id="roadmap-panel-company"
+            role="tabpanel"
+            aria-labelledby="roadmap-tab-company"
+            tabindex="0"
+            data-roadmap-panel="company"
+            hidden
+          >
+            <section class="content-block">
+              <h2>The FarmX Initiative Definition Framework</h2>
+              <p>
+                Every significant module, feature, integration or AI capability
+                should be defined using this framework before development begins.
+              </p>
+              <div class="roadmap-framework">
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">1</span>
+                  <h3>Initiative</h3>
+                  <p>What are we building?</p>
+                </article>
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">2</span>
+                  <h3>Current State</h3>
+                  <p>Where are we today?</p>
+                </article>
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">3</span>
+                  <h3>Desired Outcome</h3>
+                  <p>What should the farm be able to do when this is complete?</p>
+                </article>
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">4</span>
+                  <h3>Why It Matters</h3>
+                  <p>Why is this important to the farmer, the platform or the business?</p>
+                </article>
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">5</span>
+                  <h3>Key Deliverables</h3>
+                  <p>What capabilities must be delivered to achieve the outcome?</p>
+                </article>
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">6</span>
+                  <h3>Success Metrics</h3>
+                  <p>How will we know the initiative has worked?</p>
+                </article>
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">7</span>
+                  <h3>Dependencies</h3>
+                  <p>What must exist first?</p>
+                </article>
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">8</span>
+                  <h3>Estimated Effort</h3>
+                  <p>Small, Medium, Large or Strategic.</p>
+                </article>
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">9</span>
+                  <h3>Target Completion</h3>
+                  <p>When should this be delivered?</p>
+                </article>
+                <article class="roadmap-framework-item">
+                  <span class="roadmap-framework-item__num">10</span>
+                  <h3>Future Potential</h3>
+                  <p>What becomes possible because this exists?</p>
+                </article>
+              </div>
+            </section>
+
+            <section class="content-block content-block--accent">
+              <h2>The One Sentence Test</h2>
+              <p>
+                Before any initiative moves into design or development, it must
+                complete this sentence clearly:
+              </p>
+              <p class="roadmap-sentence-test">
+                “When this initiative is complete, FarmX will…”
+              </p>
+              <div class="roadmap-examples">
+                <p>
+                  When this initiative is complete, FarmX will understand
+                  operational instructions shared through WhatsApp without
+                  requiring manual data entry.
+                </p>
+                <p>
+                  When this initiative is complete, FarmX will know where every
+                  litre of irrigation water was applied, why it was applied and
+                  what outcome it produced.
+                </p>
+                <p>
+                  When this initiative is complete, FarmX will allow a farmer to
+                  understand crop health across every field without physically
+                  visiting every field every day.
+                </p>
+              </div>
+            </section>
+
+            <section class="content-block">
+              <h2>The principle that governs the roadmap</h2>
+              <p>
+                FarmX is not being built by adding features. It is being built by
+                systematically removing every reason a farm depends on guesswork.
+              </p>
+              <p>Every initiative must strengthen one or more of these principles:</p>
+              <ul class="roadmap-principles">
+                <li>Better decisions</li>
+                <li>Operational truth</li>
+                <li>Connected farm</li>
+                <li>AI foundation</li>
+                <li>Digital due diligence</li>
+                <li>Maximum possible profitability</li>
+              </ul>
+            </section>
+          </div>
+
+          <section class="final-cta">
+            <div class="content-block content-block--cta">
+              <h2>From features to outcomes.</h2>
+              <p>
+                The roadmap will change as FarmX learns, but the method must not
+                change. Every major initiative must begin with the desired
+                operational outcome and work backwards to the software, hardware,
+                data and workflows required to achieve it.
+              </p>
+              <div class="hero__actions">
+                <a class="button button--primary" href="contact.html"
+                  >Contact FarmX</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="nav.js"></script>
+    <script src="roadmap.js"></script>
+  </body>
+</html>
